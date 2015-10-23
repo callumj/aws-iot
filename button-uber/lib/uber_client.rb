@@ -51,7 +51,6 @@ class UberClient
       config.client_id     = ENV["UBER_CLIENT_ID"]
       config.client_secret = ENV["UBER_CLIENT_SECRET"]
       config.bearer_token  = bearer_token
-      config.sandbox = true
     end
   end
 
