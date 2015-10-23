@@ -1,0 +1,1 @@
+Place the `ca.pem`, `cert.crt` and the `client.key` obtained from AWS IoT here.

@@ -1,0 +1,16 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+gem 'sinatra'
+gem 'puma'
+
+gem 'uber-ruby'
+
+gem 'faraday'
+gem 'faraday_middleware'
+gem 'activesupport'
+
+gem 'pry'
+
+gem 'mqtt'
+gem 'aws-sdk', '~> 2'

@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+
+require 'lib'
+require 'lib/event_handler'
+require 'pry'
+
+Signal.trap("INT") do
+  c.disconnect
+  exit
+end
+
+# the .get loops in mqtt so no need to loop
+c = EventHandler.new

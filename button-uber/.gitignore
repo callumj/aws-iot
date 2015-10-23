@@ -1,0 +1,7 @@
+.env
+data/locations/*.json
+data/tokens/*.json
+data/certs/*.pem
+data/certs/*.crt
+data/certs/*.key
+.bundle
