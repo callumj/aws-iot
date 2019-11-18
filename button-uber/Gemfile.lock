@@ -30,7 +30,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     puma (2.14.0)
-    rack (1.6.4)
+    rack (1.6.11)
     rack-protection (1.5.3)
       rack
     sinatra (1.4.6)
